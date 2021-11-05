@@ -261,15 +261,6 @@ const StyledGitHubIcon = styled(GitHubIcon)`
 }
 `
 
-const StyledProfileText = styled(Typography)`
-&& {
-text-align: center;
-color: white;
-font-weight: 400;
-font-size: 1.2rem;
-}
-
-`
 
 interface Props {
 

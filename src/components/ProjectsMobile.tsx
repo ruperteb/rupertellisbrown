@@ -382,13 +382,10 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     </ImageContainerLeft>
                     <LinkContainerLeft ref={hoverRefEBProps} href="https://www.ellisbrown.co.za" target="_blank" rel="noopener noreferrer"></LinkContainerLeft>
                     <TextContainer>
-
                         <ProjectDescriptionRight variant="h5">
                             Simple single page company website utilising Framer Motion for animations, Cloudinary for image assets and Mapbox for a contact map.
                         </ProjectDescriptionRight>
-
                     </TextContainer>
-
                 </ProjectContainer>
 
                 <BottomContainer>
@@ -401,14 +398,11 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                         </ProjectSkillRight>
 
                     </ProjectSkillsRight>
-
                     <ProjectIconsRight>
                         <a href="https://github.com/ruperteb/ebpropswebsite" target="_blank" rel="noopener noreferrer"><StyledGitHubIcon></StyledGitHubIcon></a>
                         <a href="https://www.ellisbrown.co.za" target="_blank" rel="noopener noreferrer"><StyledLaunchIcon></StyledLaunchIcon></a>
                     </ProjectIconsRight>
                 </BottomContainer>
-
-
 
             </motion.div>
 
@@ -434,7 +428,6 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     mass: 1,
                 }}
             >
-
                 <ProjectTitleLeft variant="h4">
                     Contact Database
                 </ProjectTitleLeft>
@@ -455,13 +448,10 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     </ImageContainerRight>
                     <LinkContainerRight ref={hoverRefContactDB} href="https://ebpropscontacts.netlify.app/" target="_blank" rel="noopener noreferrer"></LinkContainerRight>
                     <TextContainer>
-
                         <ProjectDescriptionLeft variant="h5">
                             Contact database with support for contact import from Microsoft Graph API. (Right click for contextual menu, login email: guest@gmail.com, password: Guest@123)
                         </ProjectDescriptionLeft>
-
                     </TextContainer>
-
                 </ProjectContainer>
 
                 <BottomContainer>
@@ -469,7 +459,6 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                         <a href="https://github.com/ruperteb/ebpropscontacts" target="_blank" rel="noopener noreferrer"><StyledGitHubIcon></StyledGitHubIcon></a>
                         <a href="https://ebpropscontacts.netlify.app/" target="_blank" rel="noopener noreferrer"><StyledLaunchIcon></StyledLaunchIcon></a>
                     </ProjectIconsLeft>
-
                     <ProjectSkillsLeft >
                         <ProjectSkillLeft style={{ paddingRight: "1rem" }} variant="h5">
                             React
@@ -507,11 +496,9 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     mass: 1,
                 }}
             >
-
                 <ProjectTitleRight variant="h4">
                     Beauhaus (under construction)
                 </ProjectTitleRight>
-
                 <ProjectContainer>
                     <ImageContainerLeft
                         variants={{
@@ -529,18 +516,14 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     </ImageContainerLeft>
                     <LinkContainerLeft ref={hoverRefBeauhaus} href="https://beauhaus.netlify.app/" target="_blank" rel="noopener noreferrer"></LinkContainerLeft>
                     <TextContainer>
-
                         <ProjectDescriptionRight variant="h5">
                             Antiques website with dashboard for managing content. Backend created using Netlify serverless functions, Apollo Server Lambda, GraphQL and FaunaDB.
                         </ProjectDescriptionRight>
-
                     </TextContainer>
-
                 </ProjectContainer>
 
                 <BottomContainer>
                     <ProjectSkillsRight >
-
                         <ProjectSkillRight style={{ paddingRight: "1rem" }} variant="h5">
                             Typescipt
                         </ProjectSkillRight>
@@ -550,15 +533,12 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                         <ProjectSkillRight variant="h5">
                             FaunaDB
                         </ProjectSkillRight>
-
                     </ProjectSkillsRight>
-
                     <ProjectIconsRight>
                         <a href="https://github.com/ruperteb/beauhauswebsite" target="_blank" rel="noopener noreferrer"><StyledGitHubIcon></StyledGitHubIcon></a>
                         <a href="https://beauhaus.netlify.app/" target="_blank" rel="noopener noreferrer"><StyledLaunchIcon></StyledLaunchIcon></a>
                     </ProjectIconsRight>
                 </BottomContainer>
-
             </motion.div>
 
             <motion.div
@@ -583,11 +563,9 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     mass: 1,
                 }}
             >
-
                 <ProjectTitleLeft variant="h4">
                     Property Stock App
                 </ProjectTitleLeft>
-
                 <ProjectContainer>
                     <ImageContainerRight
                         variants={{
@@ -605,23 +583,18 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     </ImageContainerRight>
                     <LinkContainerRight ref={hoverRefPSA} href="https://psafrontendv2.herokuapp.com/" target="_blank" rel="noopener noreferrer"></LinkContainerRight>
                     <TextContainer>
-
                         <ProjectDescriptionLeft variant="h5">
                             Web app designed to manage commercial property stock details and create branded output for brokerage clients etc. Backend created with Apollo server, Prisma and GraphQL.
                         </ProjectDescriptionLeft>
-
                     </TextContainer>
-
                 </ProjectContainer>
 
                 <BottomContainer>
                     <ProjectSkillsLeft >
-
                         <ProjectIconsLeft>
                             <a href="https://github.com/ruperteb/psafrontendv2" target="_blank" rel="noopener noreferrer"><StyledGitHubIcon></StyledGitHubIcon></a>
                             <a href="https://psafrontendv2.herokuapp.com/" target="_blank" rel="noopener noreferrer"><StyledLaunchIcon></StyledLaunchIcon></a>
                         </ProjectIconsLeft>
-
                         <ProjectSkillLeft style={{ paddingRight: "1rem" }} variant="h5">
                             Typescipt
                         </ProjectSkillLeft>
@@ -631,12 +604,8 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                         <ProjectSkillLeft variant="h5">
                             GraphQL
                         </ProjectSkillLeft>
-
                     </ProjectSkillsLeft>
-
-
                 </BottomContainer>
-
             </motion.div>
 
             <motion.div
@@ -661,11 +630,9 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     mass: 1,
                 }}
             >
-
                 <ProjectTitleRight variant="h4">
                     Investor List
                 </ProjectTitleRight>
-
                 <ProjectContainer>
                     <ImageContainerLeft
                         variants={{
@@ -683,18 +650,14 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                     </ImageContainerLeft>
                     <LinkContainerLeft ref={hoverRefInvestorList} href="https://investorlistfrontend.herokuapp.com/" target="_blank" rel="noopener noreferrer"></LinkContainerLeft>
                     <TextContainer>
-
                         <ProjectDescriptionRight variant="h5">
                             Web app designed to manage a database of investors, developers and other commercial property related contacts. Backend created with Apollo server, Prisma and GraphQL.
                         </ProjectDescriptionRight>
-
                     </TextContainer>
-
                 </ProjectContainer>
 
                 <BottomContainer>
                     <ProjectSkillsRight >
-                        
                         <ProjectSkillRight style={{ paddingRight: "1rem" }} variant="h5">
                             Typescipt
                         </ProjectSkillRight>
@@ -704,26 +667,16 @@ export const ProjectsMobile: React.FunctionComponent<Props> = ({ }) => {
                         <ProjectSkillRight variant="h5">
                             GraphQL
                         </ProjectSkillRight>
-
                     </ProjectSkillsRight>
-
                     <ProjectIconsRight>
                         <a href="https://github.com/ruperteb/investorlistfrontend" target="_blank" rel="noopener noreferrer"><StyledGitHubIcon></StyledGitHubIcon></a>
                         <a href="https://investorlistfrontend.herokuapp.com/" target="_blank" rel="noopener noreferrer"><StyledLaunchIcon></StyledLaunchIcon></a>
                     </ProjectIconsRight>
-
-
                 </BottomContainer>
-
             </motion.div>
 
         </StyledStack>
-
-
-
-
     )
-
 }
 
 export default ProjectsMobile
