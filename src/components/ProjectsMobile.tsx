@@ -97,7 +97,7 @@ flex-direction: column;
 
 const ProjectTitleRight = styled(Typography)`
 && {
-color: #9b8258;
+color: #b89252;
 display:flex;
 margin: auto;
 margin-right: 0;
@@ -112,7 +112,7 @@ margin-right: 1rem;
 
 const ProjectTitleLeft = styled(Typography)`
 && {
-color: #9b8258;
+color: #b89252;
 display:flex;
 margin: auto;
 margin-left: 0;

@@ -192,7 +192,7 @@ export const Profile: React.FunctionComponent<Props> = ({ }) => {
                         </StyledSubTitleText>
                         <IconDiv>
                             <a href="mailto:ruperteb@gmail.com" target="_blank" rel="noopener noreferrer"><StyledEmailIcon fontSize={"large"}></StyledEmailIcon></a>
-                            <a href="/Curriculum_Vitae_2020.pdf" download><StyledAssignmentIndIcon fontSize={"large"}></StyledAssignmentIndIcon></a>
+                            <a href="/Rupert_Ellis_Brown_CV.pdf" download><StyledAssignmentIndIcon fontSize={"large"}></StyledAssignmentIndIcon></a>
                             <a href="https://github.com/ruperteb" target="_blank" rel="noopener noreferrer"><StyledGitHubIcon fontSize={"large"}></StyledGitHubIcon></a>
                         </IconDiv>
                     </TopDivText>
